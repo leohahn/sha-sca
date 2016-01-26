@@ -1,0 +1,35 @@
+{
+  "name": "sha",
+  "version": "0.1.0",
+  "description": "Smart Health Assistant",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Leonardo Hahn",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.11",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "angular": "^1.4.9",
+    "angular-animate": "^1.4.9",
+    "angular-aria": "^1.4.9",
+    "angular-material": "^1.0.2",
+    "angular-route": "^1.4.9",
+    "angular-ui-router": "^1.0.0-alpha0",
+    "angularfire": "^1.1.3",
+    "d3": "^3.5.13",
+    "firebase": "^2.4.0",
+    "font-awesome": "^4.5.0"
+  }
+}

@@ -1,0 +1,61 @@
+{
+    "activitiesType": [
+        "Swimming",
+        "Soccer",
+        "Running",
+        "Eating"
+    ],
+    "goalsType": [
+        "distance",
+        "kcal",
+        "time"
+    ],
+    "meals": [],
+    "activitiesLog": {
+        "01-01-16": [
+            {
+                "type": 0,
+                "time": 30,
+                "distance": 1000
+            },
+            {
+                "type": 2,
+                "distance": 400,
+                "kcal":50
+            },
+            {
+                "type": 4,
+                "mealId": 21
+            }
+        ]
+    },
+    "activities-goals": {
+        "0": [
+            {
+                "activityType": 0,
+                "current": 20,
+                "target": 100
+            }
+        ],
+        "1": [
+            {
+                "activityType": 1,
+                "current": 430,
+                "target": 1000
+            },
+            {
+                "activityType": 3,
+                "mode": "lose",
+                "current": 840,
+                "target": 2000
+            }
+        ],
+        "2": [
+            {
+                "activityType": 2,
+                "current": 90,
+                "target": 1200 
+            }
+        ]
+    }
+}
